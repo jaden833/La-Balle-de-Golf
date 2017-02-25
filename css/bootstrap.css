@@ -1123,7 +1123,16 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+    border-radius: 9px;
 }
+.img-responsivepetit {
+    align-items: center;
+    display: block;
+    max-width: 60%;
+    height: auto;
+    border-radius: 9px;
+}
+
 .img-rounded {
   border-radius: 6px;
 }
@@ -1142,7 +1151,11 @@ img {
 }
 .img-circle {
   border-radius: 50%;
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
+
 hr {
   margin-top: 20px;
   margin-bottom: 20px;
