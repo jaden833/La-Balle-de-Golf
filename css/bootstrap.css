@@ -1088,6 +1088,13 @@ body {
   color: #333;
   background-color: #fff;
 }
+
+.ouai{
+
+    padding-bottom: 6px;
+    border-bottom: 2px solid #000;
+}
+
 input,
 button,
 select,
@@ -1121,6 +1128,7 @@ img {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
+
   max-width: 100%;
   height: auto;
     border-radius: 9px;
@@ -1129,6 +1137,15 @@ img {
     align-items: center;
     display: block;
     max-width: 60%;
+    height: auto;
+    border-radius: 9px;
+}
+.img-responsivegrand{
+    display: block;
+    margin-left: -150px;
+    margin-right: -150px;
+
+    max-width: 150%;
     height: auto;
     border-radius: 9px;
 }
